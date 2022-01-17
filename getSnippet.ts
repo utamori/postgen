@@ -1,5 +1,6 @@
 import entities from "https://cdn.skypack.dev/entities";
 
+// https://github.com/rbren/rss-parser/blob/master/lib/utils.js
 const getSnippet = (str: string): string => {
   return entities.decodeHTML(stripHtml(str)).trim();
 };
